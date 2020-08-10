@@ -64,7 +64,7 @@ def search_move(move_name):
         return move_db.move_db[move_name]
 
 
-eel.start('main.html', size=(1250, 720), mode='chrome-app', options={'chromeFlags': ['--disable-http-cache']})
+eel.start('main.html', size=(1250, 720), mode='chrome-app')
 
 # TODO Attack Dex
 # TODO Image transitions
